@@ -1,0 +1,7 @@
+---
+  - name: app server config
+    hosts: app
+    become: true
+    roles:
+        - apache
+        - php
